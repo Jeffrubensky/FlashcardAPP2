@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity2">
+
+    <EditText
+        android:id="@+id/editTextField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:inputType="textMultiLine"
+        android:hint="Enter The Question Here" />
+
+    <EditText
+        android:id="@+id/editTextField1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="20dp"
+        android:inputType="textMultiLine"
+        android:hint="Enter The Answer Here" />
+
+    <EditText
+        android:id="@+id/editTextField2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="10dp"
+        android:inputType="textMultiLine"
+        android:hint="Enter Wrong The Answer Here" />
+
+    <EditText
+        android:id="@+id/editTextField3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="20dp"
+        android:inputType="textMultiLine"
+        android:hint="Enter Another Wrong The Answer Here" />
+
+
+
+    <ImageView
+        android:id="@+id/icone_X"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/iconmonstr_x_mark_circle_lined" />
+
+    <ImageView
+        android:id="@+id/icone_save"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="16dp"
+        android:src="@drawable/iconmonstr_save_13" />
+
+
+</RelativeLayout>
